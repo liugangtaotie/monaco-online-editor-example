@@ -3,7 +3,7 @@
     ref="container"
     style="
       width: 800px;
-      height: 600px;
+      height: 200px;
       border: 1px solid grey;
       text-align: left;
     "
@@ -49,7 +49,8 @@ const showFPS = (function () {
     pe = pid
       ? document.getElementById(pid)
       : document.getElementsByTagName("body")[0];
-    e.innerHTML = "<span style={color:red}>fps: " + fps + "</span>";
+    e.innerHTML =
+      "<span style='color:red;font-size:100px'>fps: " + fps + "</span>";
     pe.appendChild(e);
   };
   return {
