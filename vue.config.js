@@ -2,7 +2,6 @@ module.exports = {
   transpileDependencies: true,
 
   devServer: {
-    host: "localhost",
     open: true,
     port: 8801, // 自定义修改8080端口
     // 代理跨域
